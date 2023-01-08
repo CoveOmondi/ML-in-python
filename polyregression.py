@@ -1,4 +1,4 @@
-#r2 score
+# r2 score
 
 import numpy
 from sklearn.metrics import r2_score
@@ -10,7 +10,7 @@ mymodel = numpy.poly1d(numpy.polyfit(x, y, 3))
 
 print(r2_score(y, mymodel(x)))
 
-#line of polynomial regression
+#  line of polynomial regression
 
 import numpy
 from matplotlib import pyplot as plt
